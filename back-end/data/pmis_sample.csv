@@ -1,0 +1,101 @@
+Education,Skill no. 1,Skill no. 2,Skill no. 3,Interest,Location,Internship
+BBA (Final Year),Excel,Power BI,UI/UX,Public Data,Kerala,Open Data Portal Intern
+M.Tech,IoT Basics,,,Smart Agriculture,Haryana,Agri Data Intern
+M.Sc,Energy Audit,Remote Sensing,SQL,Automation & IoT,Odisha,IoT Intern
+B.Sc,React,Remote Sensing,Python,Healthcare,Rajasthan,Biostatistics Intern
+MBA,Power BI,Excel,Embedded Systems,Automation & IoT,Kerala,IoT Intern
+B.Com,Biostatistics,,,Automation & IoT,Delhi,Automation QA Intern
+M.Tech,GIS/QGIS,Power BI,,Smart Education,West Bengal,EdTech Data Intern
+B.Com,SQL,,,Smart Education,Odisha,EdTech Data Intern
+B.Tech IT,Embedded Systems,,,Renewable Energy,Delhi,Solar PV Intern
+Diploma,Python,IoT Basics,,Smart Education,Gujarat,EdTech Data Intern
+B.Pharm,APIs,Data Analysis,Excel,Smart Education,Karnataka,Learning Platform Intern
+B.Com,Embedded Systems,,,Automation & IoT,Bihar,IoT Intern
+BBA (1st Year),APIs,Biostatistics,SQL,Renewable Energy,Odisha,Solar PV Intern
+BCA,Biostatistics,,,Healthcare,Bihar,Biostatistics Intern
+B.Tech CSE,Python,Excel,GIS/QGIS,Public Data,Bihar,Open Data Portal Intern
+M.Tech,GIS/QGIS,Remote Sensing,,Automation & IoT,West Bengal,Automation QA Intern
+B.Pharm,Python,SQL,,Renewable Energy,Uttar Pradesh,Solar PV Intern
+B.Com,SQL,APIs,UI/UX,Public Data,Karnataka,Open Data Portal Intern
+Diploma,IoT Basics,Data Analysis,UI/UX,Automation & IoT,Haryana,IoT Intern
+MCA,React,SQL,UI/UX,Renewable Energy,Gujarat,Energy Audit Intern
+MBA,SQL,,,Renewable Energy,Assam,Solar PV Intern
+B.Tech IT,Data Analysis,,,Smart Agriculture,Rajasthan,Agri Data Intern
+B.Pharm,APIs,,,Renewable Energy,Rajasthan,Energy Audit Intern
+B.Com,Power BI,Data Analysis,GIS/QGIS,Healthcare,Madhya Pradesh,Biostatistics Intern
+BCA,Energy Audit,,,Smart Agriculture,West Bengal,Agri Data Intern
+B.Pharm,GIS/QGIS,Biostatistics,SQL,Smart Agriculture,Bihar,Agri Data Intern
+Diploma,UI/UX,,,Renewable Energy,Haryana,Solar PV Intern
+MBA,GIS/QGIS,,,Smart Education,Delhi,Learning Platform Intern
+MBA,Data Analysis,,,Renewable Energy,Assam,Solar PV Intern
+BCA,Biostatistics,IoT Basics,Python,Renewable Energy,Punjab,Solar PV Intern
+MCA,Biostatistics,,,Smart Education,West Bengal,EdTech Data Intern
+B.Pharm,UI/UX,Python,IoT Basics,Public Data,Maharashtra,e-Gov Data Intern
+B.Sc,UI/UX,Excel,IoT Basics,Automation & IoT,Madhya Pradesh,IoT Intern
+BCA,UI/UX,Remote Sensing,,Healthcare,Tamil Nadu,Lab QA Intern
+BBA (1st Year),GIS/QGIS,Biostatistics,,Smart Agriculture,Haryana,Agri Data Intern
+Diploma,UI/UX,Excel,Biostatistics,Smart Education,Delhi,Learning Platform Intern
+BBA (1st Year),APIs,SQL,Excel,Renewable Energy,Kerala,Energy Audit Intern
+B.Com,Biostatistics,Excel,,Renewable Energy,Delhi,Solar PV Intern
+MBA,SQL,IoT Basics,,Smart Education,Maharashtra,EdTech Data Intern
+Diploma,Energy Audit,Data Analysis,,Healthcare,Kerala,Biostatistics Intern
+MCA,Energy Audit,,,Healthcare,Uttar Pradesh,Biostatistics Intern
+M.Sc,React,,,Healthcare,West Bengal,Lab QA Intern
+BCA,Embedded Systems,Data Analysis,Power BI,Healthcare,Delhi,Lab QA Intern
+BCA,SQL,Embedded Systems,Biostatistics,Public Data,West Bengal,e-Gov Data Intern
+MCA,APIs,GIS/QGIS,UI/UX,Smart Education,Punjab,Learning Platform Intern
+BBA (Final Year),Excel,,,Public Data,Haryana,e-Gov Data Intern
+M.Sc,Excel,Data Analysis,,Renewable Energy,Bihar,Solar PV Intern
+B.Tech CSE,Data Analysis,,,Smart Education,Uttar Pradesh,EdTech Data Intern
+MCA,UI/UX,APIs,Embedded Systems,Renewable Energy,Assam,Solar PV Intern
+MBA,Data Analysis,UI/UX,,Public Data,Odisha,Open Data Portal Intern
+Diploma,Excel,SQL,Data Analysis,Smart Education,Bihar,Learning Platform Intern
+B.Sc,APIs,GIS/QGIS,,Smart Education,Karnataka,Learning Platform Intern
+B.Com,Energy Audit,Remote Sensing,,Automation & IoT,Assam,IoT Intern
+BBA (Final Year),SQL,Energy Audit,,Renewable Energy,Rajasthan,Energy Audit Intern
+B.Sc,APIs,,,Smart Education,Odisha,Learning Platform Intern
+B.Tech IT,Remote Sensing,SQL,,Smart Agriculture,Uttar Pradesh,Agri Data Intern
+B.Pharm,IoT Basics,Embedded Systems,,Healthcare,Gujarat,Biostatistics Intern
+BCA,SQL,Python,Energy Audit,Renewable Energy,Assam,Energy Audit Intern
+Diploma,Embedded Systems,,,Renewable Energy,Rajasthan,Solar PV Intern
+B.Tech IT,Embedded Systems,Energy Audit,,Renewable Energy,Punjab,Solar PV Intern
+Diploma,Remote Sensing,Energy Audit,,Automation & IoT,Gujarat,Automation QA Intern
+M.Tech,Remote Sensing,Power BI,,Public Data,Delhi,Open Data Portal Intern
+BCA,Remote Sensing,SQL,Python,Smart Education,Maharashtra,Learning Platform Intern
+B.Tech IT,Data Analysis,Biostatistics,,Automation & IoT,Bihar,IoT Intern
+BCA,APIs,,,Renewable Energy,Haryana,Solar PV Intern
+B.Tech IT,Data Analysis,,,Healthcare,Maharashtra,Lab QA Intern
+B.Tech IT,GIS/QGIS,,,Renewable Energy,West Bengal,Solar PV Intern
+M.Sc,Python,Excel,SQL,Smart Education,Rajasthan,EdTech Data Intern
+M.Tech,Power BI,IoT Basics,SQL,Automation & IoT,Rajasthan,Automation QA Intern
+B.Sc Env,Data Analysis,Python,,Automation & IoT,Maharashtra,IoT Intern
+B.Sc,APIs,,,Smart Agriculture,Karnataka,Remote Sensing Intern
+M.Tech,Excel,,,Renewable Energy,Karnataka,Solar PV Intern
+BBA (Final Year),Biostatistics,Remote Sensing,,Renewable Energy,Bihar,Energy Audit Intern
+BBA (Final Year),SQL,Biostatistics,Embedded Systems,Renewable Energy,Karnataka,Energy Audit Intern
+MBA,Python,Embedded Systems,Biostatistics,Healthcare,Assam,Lab QA Intern
+BBA (Final Year),Energy Audit,Python,,Smart Education,Punjab,Learning Platform Intern
+B.Tech IT,Power BI,Remote Sensing,Excel,Healthcare,Bihar,Lab QA Intern
+B.Tech CSE,Remote Sensing,Data Analysis,,Healthcare,Haryana,Lab QA Intern
+MCA,Data Analysis,IoT Basics,,Public Data,Delhi,e-Gov Data Intern
+B.Tech CSE,APIs,IoT Basics,UI/UX,Smart Agriculture,Maharashtra,Remote Sensing Intern
+B.Sc,APIs,UI/UX,,Renewable Energy,Rajasthan,Solar PV Intern
+B.Pharm,Data Analysis,Excel,Energy Audit,Smart Agriculture,Delhi,Remote Sensing Intern
+B.Sc,GIS/QGIS,APIs,IoT Basics,Automation & IoT,Haryana,Automation QA Intern
+B.Tech IT,IoT Basics,React,,Automation & IoT,Madhya Pradesh,IoT Intern
+MCA,UI/UX,GIS/QGIS,,Smart Agriculture,West Bengal,Remote Sensing Intern
+B.Sc Env,React,Python,Biostatistics,Smart Education,Tamil Nadu,EdTech Data Intern
+B.Sc Env,Energy Audit,SQL,Data Analysis,Smart Agriculture,Odisha,Agri Data Intern
+M.Tech,Excel,Remote Sensing,APIs,Healthcare,Punjab,Biostatistics Intern
+M.Sc,GIS/QGIS,IoT Basics,,Automation & IoT,Punjab,Automation QA Intern
+B.Sc,Python,SQL,,Renewable Energy,Rajasthan,Energy Audit Intern
+MBA,Remote Sensing,Python,Power BI,Smart Education,Bihar,Learning Platform Intern
+M.Tech,Embedded Systems,,,Automation & IoT,Delhi,Automation QA Intern
+MBA,APIs,,,Public Data,Rajasthan,Open Data Portal Intern
+BCA,Data Analysis,,,Renewable Energy,Delhi,Solar PV Intern
+B.Sc,GIS/QGIS,,,Public Data,Maharashtra,Open Data Portal Intern
+B.Tech IT,Biostatistics,SQL,,Automation & IoT,Haryana,Automation QA Intern
+Diploma,Remote Sensing,Energy Audit,,Automation & IoT,Delhi,Automation QA Intern
+B.Tech IT,Data Analysis,React,Energy Audit,Healthcare,Gujarat,Lab QA Intern
+B.Sc Env,UI/UX,,,Renewable Energy,Tamil Nadu,Energy Audit Intern
+M.Sc,Excel,,,Healthcare,Tamil Nadu,Biostatistics Intern
