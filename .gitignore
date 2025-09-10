@@ -1,0 +1,60 @@
+# =========================
+# Python (Flask/FastAPI)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+
+# Virtual environment
+.env
+venv/
+ENV/
+env.bak/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# Model files / large data
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.ckpt
+*.onnx
+training_data.csv
+
+# =========================
+# Node (React / Vite)
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Local env files
+*.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
