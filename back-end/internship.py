@@ -4,7 +4,6 @@ import numpy as np
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 
-
 # Create the Flask app
 app = Flask(__name__)
 CORS(app)
@@ -17,16 +16,16 @@ def default():
 @app.route('/predict', methods=['POST'])
 def predict_internship():
     """
-    Predicts internships for a user and returns JSON with only internship names.
+    Predicts internships for a user and returns JSON with internship + location + duration.
     """
     data = request.get_json()  # Get JSON data from request body
     print("Received JSON:", data)
 
     # Load trained pipeline model
-    model = joblib.load('.\\model\\internship_model.pkl')
+    model = joblib.load('./model/internship_model.pkl')
 
-    # Load raw training dataset
-    training_data = pd.read_csv('.\\data\\pmis_sample.csv')
+    # Load raw training dataset (with Duration column now)
+    training_data = pd.read_csv('./data/pmis_sample.csv')
 
     new_data = pd.DataFrame([data])
 
@@ -40,27 +39,55 @@ def predict_internship():
     )
     exact_matches = training_data[condition]
 
+    results = []
     internships = []
+
     if not exact_matches.empty:
-        internships = exact_matches['Internship'].drop_duplicates().tolist()
+        unique_matches = exact_matches[['Internship', 'Location', 'Internship Duration']].drop_duplicates()
+        for _, row in unique_matches.iterrows():
+            results.append({
+                "Internship": row['Internship'],
+                "Location": row['Location'],
+                "Duration": row['Internship Duration']
+            })
+            internships.append(row['Internship'])
 
     # If less than 4 → use ML predictions to fill remaining
-    if len(internships) < 4:
+    if len(results) < 4:
         probs = model.predict_proba(new_data)[0]
         top_idx = np.argsort(probs)[-4:][::-1]   # top 4
         ml_preds = [model.classes_[i] for i in top_idx]
 
         for pred in ml_preds:
             if pred not in internships:
+                # Look up location & duration from training_data (first match)
+                match_row = training_data.loc[training_data['Internship'] == pred]
+                if not match_row.empty:
+                    location = match_row['Location'].iloc[0]
+                    duration = match_row['Internship Duration'].iloc[0]
+                else:
+                    location = "Unknown"
+                    duration = "Unknown"
+
+                results.append({
+                    "Internship": pred,
+                    "Location": location,
+                    "Duration": duration
+                })
                 internships.append(pred)
-            if len(internships) == 4:
+
+            if len(results) == 4:
                 break
 
-    # Convert list into JSON objects (for frontend cards)
-    result = {"Top_4_Internships": [{"Internship": name} for name in internships]}
-    print(result)
-    return result
+    # Final JSON for frontend
+    result = {"Top_4_Internships": results}
+    print("\n--- Final Recommendations ---")
+    for rec in results:
+        print(f"Internship: {rec['Internship']} | Location: {rec['Location']} | Duration: {rec['Duration']}")
+    print("----------------------------\n")
+
+    return jsonify(result)
 
 # Run the server
 if __name__ == '__main__':
-    app.run(debug=True)   # debug=True reloads server on code changes
+    app.run(debug=True)
