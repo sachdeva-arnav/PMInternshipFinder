@@ -21,16 +21,32 @@ const LandingPage = () => {
     });
 
     const languages = ['English','Hindi'];
-    const educationLevels = ['High School', 'Associate', 'Bachelor', 'Master', 'PhD'];
-    const sectors = ['Technology', 'Healthcare', 'Finance', 'Education', 'Marketing'];
-    const locations = ['Remote', 'On-site', 'Delhi NCR'];
-    
-    // Skill options
-    const skillOptions = [
-        'Remote Sensing', 'Biostatistics', 'Power BI', 'Python', 
-        'Data Analysis', 'Machine Learning', 'JavaScript', 'React',
-        'SQL', 'GIS', 'Statistical Analysis', 'Data Visualization'
-    ];
+    // Education levels
+const educationLevels = [
+  "BBA (1st Year)", "BBA (Final Year)", "Diploma", "B.Tech IT", "B.Tech CSE",
+  "BCA", "B.Com", "B.Sc", "MBA", "MCA", "M.Tech", "B.Pharm", "M.Sc", "B.Sc Env"
+];
+
+// Sector → replaced with Interests
+const sectors = [
+  "Public Data", "Smart Agriculture", "Smart Education",
+  "Healthcare", "Renewable Energy", "Automation & IoT"
+];
+
+// Location → replaced with States
+const locations = [
+  "Delhi", "Maharashtra", "Karnataka", "Tamil Nadu", "Uttar Pradesh",
+  "West Bengal", "Bihar", "Rajasthan", "Madhya Pradesh", "Gujarat",
+  "Haryana", "Punjab", "Kerala", "Assam", "Odisha"
+];
+
+// Skill options (updated)
+const skillOptions = [
+  "Excel", "Python", "SQL", "Data Analysis", "Power BI",
+  "IoT Basics", "Embedded Systems", "GIS/QGIS", "Remote Sensing",
+  "Energy Audit", "React", "UI/UX", "APIs", "Biostatistics", "NaN"
+];
+
 
     const testimonials = [
         {
@@ -91,7 +107,13 @@ const LandingPage = () => {
             setIsExpanded(true);
             
             // Scroll to recommendations section
-            document.getElementById('recommendations').scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => {
+            const section = document.getElementById("recommendations");
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+            }
+            }, 100);
+            setIsLoading(false);
         } catch (error) {
             console.error("Error fetching recommendations:", error);
             // Fallback to sample data if API fails
@@ -103,7 +125,14 @@ const LandingPage = () => {
             ]);
             setShowRecommendations(true);
             setIsExpanded(true);
-            document.getElementById('recommendations').scrollIntoView({ behavior: 'smooth' });
+            // Wait until next paint cycle to scroll
+            setTimeout(() => {
+            const section = document.getElementById("recommendations");
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+            }
+            }, 100);
+
         } finally {
             setIsLoading(false);
         }
