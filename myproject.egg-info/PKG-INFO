@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: myproject
+Version: 0.1.0
+Summary: A new Python project
+Author-email: Arnav Sachdeva <your_email@example.com>
+Requires-Python: >=3.13
+Requires-Dist: flask>=3.1.2
+Requires-Dist: flask-cors>=6.0.1
+Requires-Dist: joblib>=1.5.2
+Requires-Dist: numpy>=2.3.3
+Requires-Dist: pandas>=2.3.2
+Requires-Dist: scikit-learn>=1.7.2
